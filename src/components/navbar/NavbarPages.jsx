@@ -24,14 +24,14 @@ const NavbarPages = () => {
   return (
     <nav className={`app__navbar ${scrl}`} >
       <div className="app__navbar-logo">
-        <Link to={"../aranyatest2/#Destination"}><img src={"imgs/logo.png"} alt="app__logo" /></Link>
+        <Link to={"../#Destination"}><img src={"imgs/logo.png"} alt="app__logo" /></Link>
       </div>
       <ul className="app__navbar-links">
-        <li className="p__opensans"><Link to="../aranyatest2/#Destination">Destination</Link></li>
-        <li className="p__opensans"><Link to={"../aranyatest2/about"}>About</Link></li>
-        <li className="p__opensans"><Link to="../aranyatest2/stay">Stay</Link></li>
-        <li className="p__opensans"><Link to="../aranyatest2/#wellness">Wellness</Link></li>
-        <li className="p__opensans"><Link to="../aranyatest2/#contact">Contact</Link></li>
+        <li className="p__opensans"><Link to="../#Destination">Destination</Link></li>
+        <li className="p__opensans"><Link to={"../about"}>About</Link></li>
+        <li className="p__opensans"><Link to="../stay">Stay</Link></li>
+        <li className="p__opensans"><Link to="../#wellness">Wellness</Link></li>
+        <li className="p__opensans"><Link to="../#contact">Contact</Link></li>
       </ul>
     
       <div className="app__navbar-smallscreen">
@@ -40,11 +40,11 @@ const NavbarPages = () => {
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <ImCross fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
             <ul className="app__navbar-smallscreen_links">
-              <li><Link to="../aranyatest2/#Destination" onClick={() => setToggleMenu(false)}>Home</Link></li>
-              <li><Link to="../aranyatest2/about" onClick={() => setToggleMenu(false)}>About</Link></li>
-              <li><Link to="../aranyatest2/stay" onClick={() => setToggleMenu(false)}>Stay</Link></li>
-              <li><Link to="../aranyatest2/#wellness" onClick={() => setToggleMenu(false)}>Wellness</Link></li>
-              <li><Link to="../aranyatest2/#contact" onClick={() => setToggleMenu(false)}>Contact</Link></li>
+              <li><Link to="../#Destination" onClick={() => setToggleMenu(false)}>Home</Link></li>
+              <li><Link to="../about" onClick={() => setToggleMenu(false)}>About</Link></li>
+              <li><Link to="../stay" onClick={() => setToggleMenu(false)}>Stay</Link></li>
+              <li><Link to="../#wellness" onClick={() => setToggleMenu(false)}>Wellness</Link></li>
+              <li><Link to="../#contact" onClick={() => setToggleMenu(false)}>Contact</Link></li>
             </ul>
           </div>
         )}
