@@ -2,7 +2,6 @@
   "name": "aranya",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://111vandit111.github.io/aranyatest2/",
   "type": "module",
   "scripts": {
     "dev": "vite",
