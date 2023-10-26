@@ -30,7 +30,8 @@ const NavbarPages = () => {
         <li className="p__opensans"><Link to="../#Destination">Destination</Link></li>
         <li className="p__opensans"><Link to={"../about"}>About</Link></li>
         <li className="p__opensans"><Link to="../stay">Stay</Link></li>
-        <li className="p__opensans"><Link to="../#wellness">Wellness</Link></li>
+        <li className="p__opensans"><Link to="../experiences">Experiences</Link></li>
+        <li className="p__opensans"><Link to="../dining">Dining</Link></li>
         <li className="p__opensans"><Link to="../#contact">Contact</Link></li>
       </ul>
     
@@ -43,7 +44,8 @@ const NavbarPages = () => {
               <li><Link to="../#Destination" onClick={() => setToggleMenu(false)}>Home</Link></li>
               <li><Link to="../about" onClick={() => setToggleMenu(false)}>About</Link></li>
               <li><Link to="../stay" onClick={() => setToggleMenu(false)}>Stay</Link></li>
-              <li><Link to="../#wellness" onClick={() => setToggleMenu(false)}>Wellness</Link></li>
+              <li><Link to="../experiences" onClick={() => setToggleMenu(false)}>Experiences</Link></li>
+              <li><Link to="../dining" onClick={() => setToggleMenu(false)}>Dining</Link></li>
               <li><Link to="../#contact" onClick={() => setToggleMenu(false)}>Contact</Link></li>
             </ul>
           </div>
